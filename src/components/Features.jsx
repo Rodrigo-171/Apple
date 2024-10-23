@@ -59,7 +59,7 @@ export const Features = () => {
                             <div className=' flex-1 h-[50vh]'>
                                 <img src={explore1Img} alt="titanium" className='feature-video g_grow'/>
                             </div>
-                            <div className=' flex-1 h-[50vh]'>
+                            <div className=' overflow-hidden flex-1 h-[50vh]'>
                                 <img src={explore2Img} alt="titanium 2" className='feature-video g_grow'/>
                             </div>
                         </div>
