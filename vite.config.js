@@ -8,7 +8,7 @@ export default defineConfig({
     org: "rnm-xx",
     project: "javascript-react"
   })],
-  //base: "/Apple",
+  base: "/Apple",
 
   build: {
     sourcemap: true

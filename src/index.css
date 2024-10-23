@@ -19,9 +19,9 @@ body {
   user-select: none;
 }
 
-canvas {
+/*canvas {
   touch-action: none;
-}
+}*/
 
 
 .screen-max-width {

@@ -259,4 +259,4 @@ function Model(props) {
 
 export default Model;
 
-useGLTF.preload("/models/scene.glb");
+useGLTF.preload("./models/scene.glb");
