@@ -33,7 +33,7 @@ export const Features = () => {
 
 
   return (
-    <section className='h-full common-padding bg-zinc relative overflow-hidden'>
+    <section className='h-full common-padding bg-zinc relative'>
         <div className='screen-max-width'>
             <div className='mb-12 w-full'>
                 <h1 id='features_title' className='section-heading'>
@@ -41,7 +41,7 @@ export const Features = () => {
                 </h1>
             </div>
 
-            <div className='flex flex-col justify-center items-center overflow-hidden'>
+            <div className='flex flex-col justify-center items-center'>
                 <div className='mt-32 mb-24 pl-24'>
                     <h2 className='text-5xl lg:text-7xl font-semibold'>iPhone.</h2>
                     <h2 className='text-5xl lg:text-7xl font-semibold'>Forged in titanium.</h2>
@@ -56,10 +56,10 @@ export const Features = () => {
 
                     <div className='flex flex-col w-full relative'>
                         <div className='feature-video-container'>
-                            <div className=' overflow-hidden flex-1 h-[50vh]'>
+                            <div className=' flex-1 h-[50vh]'>
                                 <img src={explore1Img} alt="titanium" className='feature-video g_grow'/>
                             </div>
-                            <div className=' overflow-hidden flex-1 h-[50vh]'>
+                            <div className=' flex-1 h-[50vh]'>
                                 <img src={explore2Img} alt="titanium 2" className='feature-video g_grow'/>
                             </div>
                         </div>
