@@ -19,7 +19,7 @@ body {
 }
 
 canvas {
-  touch-action: pan-y;
+  touch-action: pan-y!important;
 }
 
 .screen-max-width {
